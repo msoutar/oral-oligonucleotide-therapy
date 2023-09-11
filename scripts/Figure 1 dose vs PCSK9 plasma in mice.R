@@ -59,6 +59,4 @@ dose_0.25_std.error<-round(std.error(liver_exp_w_0.25),2)
 dose_0.25_std.error
 
 #Vector from table
-liver_exp_w_0.25<-c(1.40,1.56,1.47,1.27)
-dose_0.25_mean<-mean(liver_exp_w_0.25) 
-dose_0.25_mean
+library(xlsx)
